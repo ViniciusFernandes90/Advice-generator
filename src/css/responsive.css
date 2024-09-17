@@ -1,0 +1,33 @@
+@media (max-width: 600px){
+    .hero{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .hero .caixa{
+        max-width: 300px;
+        max-height: 250px;
+    }
+
+    .caixa .divisor{
+        width: 250px;
+        margin-bottom: 35px;
+    }
+
+    .caixa .concelho{
+        height: 50px;
+        display: flex;
+        width: 270px;
+        
+    }
+
+    .caixa .titulo{
+        font-size: 13px;
+    }
+
+    .caixa .concelho p{
+        font-size: 13px;
+        font-weight: 800;
+        
+    }
+}

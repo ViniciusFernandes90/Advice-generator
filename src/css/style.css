@@ -1,0 +1,79 @@
+/* Body */
+.hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(218, 23%, 16%);
+    flex-direction: column;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 1px;
+}
+
+
+/* Caixa */
+
+.caixa{
+    background-color:hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    height: 300px ;
+    width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.botao{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: -20px;
+    transition: 0.3s;
+    
+
+}
+
+.botao:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 50px hsl(150, 100%, 66%);
+}
+
+.divisor{
+    margin: 35px;
+}
+
+.caixa .titulo{
+    font-family: 'Manrope';
+    color: hsl(150, 100%, 66%);
+    
+
+}
+
+.caixa .concelho{
+    max-width: 450px;
+    line-break: normal;
+    color: white;
+    font-family: 'Manrope';
+    color:hsl(193, 38%, 86%);
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.idConcelho{
+    text-decoration: none;
+    color: hsl(150, 100%, 66%) ;
+
+}
+
+
